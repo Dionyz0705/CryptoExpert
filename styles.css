@@ -1,0 +1,331 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+   
+}
+
+html,body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    
+}
+
+.header { 
+    background-image: url('../images/art-rachen-sM4r-swmcoY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: 0px;  
+    height: 25rem;       
+    display: flex;
+    align-content: center;
+    opacity: 0.8;
+            
+}
+
+/* nav section*/
+
+.navbar { 
+    position: sticky;
+    bottom: 31.1875rem; 
+    background-color: #1B317A;
+    height: 4.375rem;
+    text-align: right;
+    z-index: 1;
+        
+}
+
+h1 {     
+   color: #FAC537;     
+   height: 2.5rem;
+   padding: 8px;
+   background-color: #1B317A ;
+   border-radius: 4px;
+   opacity: 1;
+   margin-top: 4.375rem;
+       
+}
+
+nav span a {      
+    display: inline-block;
+    width: 7.5rem;
+    color: #3086D1;
+    text-decoration: none;
+    font-size: 1.125rem; 
+    padding: 1.375rem;
+    font-weight: bold;
+    
+}
+
+.main .content {
+    display: inline-block;
+    height: 4.375rem;
+    position: relative;
+    bottom: 8.7rem;    
+    background-color: #1B317A;    
+    width: 100%;     
+    text-align: center;   
+    justify-content: center; 
+    align-content: center; 
+    color: #FAC537;
+    opacity: 0.9;
+    line-height: 0.3;  
+           
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: 3.375rem;
+        text-align: center;
+        position:sticky;
+    }
+
+    nav span a {
+        width: 6.5rem;
+        font-size: 1rem;
+        padding: 0.9rem;
+    }
+
+    h1 {
+        margin-top: 3.375rem;        
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .main .content {
+        width: 70%;
+        height: 7.375rem;
+        bottom: 10.7rem;
+        margin-left: 70px;
+    }
+
+    .content h2 {
+        margin-top: 40px;
+    }
+}
+
+/* Mission section*/
+
+.Our-Mission {
+    display: inline-block;
+    position: relative;    
+    width: 60%;  
+    margin-left: 4.375rem;
+    bottom: 6.5rem; 
+    
+}
+
+.Our-Mission-image {
+    position: relative;
+    background-image: url('../images/kanchanara-fsSGgTBoX9Y-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    opacity: 0.7;
+    margin: 0 auto;
+    bottom: 4rem;
+}
+
+.Our-Mission h2 {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .Our-Mission {
+        bottom: 10.5rem;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+        line-height: 1.4;
+    }
+
+    .Our-Mission h2 {
+        text-align: center;
+    }
+
+    .Our-Mission-image {
+        bottom: 10rem;
+    }
+}
+
+/* Services section*/ 
+
+.Services {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    bottom: 2.5rem;
+
+}
+
+.Services p {
+    margin-bottom: 5px;
+}
+
+.flexbox-container {
+    display: flex;    
+    flex-flow: wrap;
+    position: relative;
+    justify-content: space-evenly;  
+    align-content: flex-start; 
+    min-height: 15.625rem; 
+    width: 100%; 
+    margin-bottom: 1.875rem;
+  
+}
+
+.flexbox-item {
+    display: flex;
+    width: 18.75rem;
+    height: 100px;
+    margin: 10px;        
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #1B317A;
+    color: #FAC537 ;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexbox-container {
+        bottom: 10rem;
+    }
+
+    .flexbox-item {
+        width: 100%;
+        margin: 1px 1px;
+    }
+
+    .Services {
+        bottom: 10rem;    
+        
+    }
+}
+ 
+
+/* Team section */
+
+.Our-Team-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3.75rem;
+    position: relative;
+}
+
+#Our-Team {
+   position: relative;
+
+}
+
+.Our-Team h2  {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.teammate {
+   height: 25rem;
+   width: 12.5rem;
+   margin: 10px;
+   
+}  
+   
+
+.teammate-text {
+    padding-top: 0px;
+    text-align: center;     
+
+}
+
+
+
+.teammate-text h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+
+.teammate-text p {
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Our-Team-container {
+        width: 100%;  
+        bottom: 40px;
+        background-image: url('../images/');     
+        
+    }
+
+    #Our-Team  {
+       bottom: 150px;
+    }
+
+    .teammate {        
+        height: 500px;
+        width: 350px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .Our-Team-container div img {
+        height: 500px;
+        width: 350px;
+        margin: 0px auto;
+    }
+
+    .teammate-text {
+        line-height: 1;
+    }
+
+    .teammate-text h3 {
+        margin-top: 0;
+    }
+
+    .teammate-text p {
+        margin-top: 5px;
+    }
+}
+
+
+.contact {  
+    display: block;      
+    position: relative;
+    background-color: #1B317A;
+    text-align: center;    
+    height: 8.25rem;
+    width: 100%;
+    line-height: 1.2px;
+    top: 1.375rem;
+    color: #FAC537;   
+     
+}
+
+.contact .address {
+    padding-top: 1.25rem;
+}
+
+
+
+.copyright {    
+    background-color: #3086D1;
+    height: 2.5rem;
+    width: 100%;     
+    color: #000000;
+    opacity: 0.9;
+       
+}
+
+.copyright h4 {
+    padding-left: 2rem;
+    padding-top: 0.625rem;
+}
+
