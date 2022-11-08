@@ -35,7 +35,7 @@ html,body {
 /* nav section*/
 
 .navbar { 
-    position: sticky;
+    position: absolute;
     bottom: 31.1875rem; 
     background-color: #1B317A;
     height: 4.375rem;
